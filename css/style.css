@@ -11,11 +11,39 @@ body{
 /* COMMON  */
 
 /* inizio header  */
-#header-bar{
-    background-color: black;
-    color: white;
-}
+    #header-bar{
+        background-color: black;
+        color: white;
+        width: 100%;
+    }
+    #header-bar img{
+        width: 70px;
+        height: 30px;
+    }
 /* fine header  */
+
+/* inizio nav-header  */
+    .navbar-brand img{
+        width: 70px;
+        height: 60px;
+    }
+    #navbarDropdownMenuLink{
+        color: black;
+        font-size: 1.3em;
+    }
+    #my_gray-button{
+        border-radius: 50px;
+        background-color: #3B3B3B;
+    } 
+    header li i{
+        font-size: 30px; 
+    }
+
+
+
+
+
+/* inizio nav-header */
 
 
 /* inizio jumbotron  */
@@ -40,18 +68,11 @@ footer {
 
 /* inizio header  */
 
-.debug header{
+/* .debug header{
     height: 120px;
     border: 3px solid green;
-}
+} */
 
-.debug .header-bar{
-    height: 40px;
-}
-
-.debug .nav-header{
-    height: 80px;
-}
 
 /* inizio jumbotron  */
 
