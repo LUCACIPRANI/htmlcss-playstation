@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* COMMON  */
+
+/* inizio header  */
+#header-bar{
+    background-color: black;
+    color: white;
+}
+/* fine header  */
+
+
+/* inizio jumbotron  */
+    
+/* fine jumbotron  */
+
+
+/* inizio main  */
+
+/* fine main  */
+
+
+/* inizio footer  */
+footer {
+    background-color: #05449B;
+    height: 600px;  /* DEBUG  */
+}
+/* fine footer  */
+
+
+/* DEBUG  */
+
+/* inizio header  */
+
+.debug header{
+    height: 120px;
+    border: 3px solid green;
+}
+
+.debug .header-bar{
+    height: 40px;
+}
+
+.debug .nav-header{
+    height: 80px;
+}
+
+/* inizio jumbotron  */
+
+.debug .jumbotron-top{
+    height: 700px;
+    background-color: lightcoral;
+}
+
+.debug .jumbotron-down{
+    height: 200px;
+    background-color: lightgreen;
+}
+
+.debug .playstation5{
+    height: 800px;
+    background-color: lightpink;
+}
+
+.debug .jumbotron2{
+    height: 800px;
+    background-color: red;
+}
+
+.debug .playstation4{
+    height: 600px;
+    background-color: lightslategray;
+}
+
+.debug .playstation-plus{
+    height: 400px;
+    background-color: green;
+}
+
+.debug .playstation-store{
+    height: 500px;
+    background-color: mediumorchid;
+}
+
+.debug .playstation-now{
+    height: 400px;
+    background-color: green;
+}
+
+.debug .social-media{
+    height: 400px;
+    background-color: moccasin;
+}
+
