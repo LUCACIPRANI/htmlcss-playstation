@@ -31,9 +31,11 @@ body{
     #my_gray-button{
         border-radius: 50px;
         background-color: #3B3B3B;
+        font-size: 1em;
     } 
-    header li i{
-        font-size: 30px; 
+    #lens{
+        width: 25px;
+        height: 40px;
     }
 /* fine header  */
 /* inizio jumbotron  */
@@ -93,7 +95,7 @@ body{
     }
     #my_blue-button{
         border-radius: 30px;
-        font-size: 1.1em;
+        font-size: 1em;
     }
     #console {
         margin-top: 15%;
@@ -148,17 +150,49 @@ body{
     sup{
         font-size: 0.5em;
     }
-    /* fine Playstation 4  */
-    /* inizio playstation-plus  */
-    #my_plus-images{
+    #my_4-images{
         width: 100%;
         height: 300px;
         object-fit: contain;
     }
+    /* fine Playstation 4  */
+    /* inizio playstation-plus  */
+    .playstation-plus{
+        background-color: #BFBCBB;
+    }
+    .my_play-store-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .my_play-store-image{
+        display: none;
+    }
 
+    .my_text-black{
+        color: black;
+        font-size: 1.3em;
+    }
+    #my_blue-reverse-button{
+        border-radius: 30px;
+        border: none;
+        font-size: 1.3em;
+        color: #0F6EFD;
+        background-color: #D9DADC;
+    }
+    .my_play-plus-image{
+        width: 60%;
+        object-fit: contain;
+        margin-top: 40px;
+    }
 
 /* fine main */
 
+/* Social media  */
+    .social-media img{
+        width: 230px;
+        height: 230px;
+    }
 
 /* inizio footer  */
 footer {
@@ -173,7 +207,9 @@ footer {
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    
+    .my_play-store-image{
+        display: none;
+    }
 
 }
 
@@ -190,6 +226,16 @@ footer {
     .my_elements{
         margin: 0 auto;
     }
+    .my_play-store-image{
+        display: inline;
+        margin: none;
+        object-fit: cover;
+    }
+    /* prova  */
+    #plus{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
 
 }
 
@@ -203,16 +249,22 @@ footer {
         top: 45%;
         left: 3%;
     }
+    .my_play-store-image{
+        display: inline;
+        margin: none;
+        object-fit: cover;
+    }
+    /* prova  */
+    .my_play-plus-image{
+        padding-bottom: 10%;
+        margin-top: 10%;
+    }
+    #plus{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
 
 }
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-
-}
-
-
 
 
 
@@ -220,18 +272,13 @@ footer {
 
 
 
+.debug .playstation-now {
+    height: 480px;
+    background-color: #BFBCBB;
+}
+
 .debug .playstation-store{
-    height: 500px;
-    background-color: mediumorchid;
-}
-
-.debug .playstation-now{
-    height: 400px;
+    height: 600px;
     background-color: green;
-}
-
-.debug .social-media{
-    height: 400px;
-    background-color: moccasin;
 }
 
