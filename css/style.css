@@ -36,17 +36,16 @@ body{
         font-size: 30px; 
     }
 /* fine header  */
-
 /* inizio jumbotron  */
     .jumbotron{
         position: relative;
     }
-    .jumbotron img{
+    .my_jumbo-slider{
         width: 100%;
-        height: 660px;
+        height: 700px;
         object-fit: cover;
     }
-    #my_image {
+    #my_jumbo-image {
         position: absolute;
         width: 280px;
         height: 40px;
@@ -71,7 +70,7 @@ body{
 /* fine jumbotron */
 /* inizio main  */
 
-    /* inizio figures */
+/* inizio figures */
     .my_figures-borders-radius{
         border-radius: 20px;
     }
@@ -79,25 +78,24 @@ body{
         border: 3px solid #2481D4;
         padding: 2px;
     }
-    /* fine figures */
-    /* inizio playstation 5 */
+/* fine figures */
+/* inizio playstation 5 */
     .my_text-blue{
         color: #2481D4;
         font-weight: 500;
     }
     .my_text-gray{
         color: #808080;
-        font-size: 1.5em;
+        font-size: 1.6em;
     }
     .my_title{
         font-size: 3em;
     }
-
     #my_blue-button{
         border-radius: 30px;
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
-    #console{
+    #console {
         margin-top: 15%;
     }
     .my_console-image img{
@@ -120,6 +118,44 @@ body{
         border-bottom: 2px solid #2481D4;
     }
     /* fine playstation 5 */
+    /* inizio jumbotron2  */
+    .my_jumbo2-slider{
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+    }
+    #my_jumbo2-image {
+        position: absolute;
+        width: 280px;
+        height: 200px;
+        top: 7%;
+        left: 3%;
+    }
+    .other-text2{
+        position: absolute;
+        width: 100%;
+        top: 40%;
+        left: 4%;
+        color: white;
+    }
+    /* fine jumbotron2  */
+    /* inizio Playstation 4  */
+    .playstation4{
+        color: white;
+        background-color: #202020;
+        font-weight: 600;
+    }
+    sup{
+        font-size: 0.5em;
+    }
+    /* fine Playstation 4  */
+    /* inizio playstation-plus  */
+    #my_plus-images{
+        width: 100%;
+        height: 300px;
+        object-fit: contain;
+    }
+
 
 /* fine main */
 
@@ -143,7 +179,8 @@ footer {
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    #my_image {
+    .my_jumbo-image,
+    .my_jumbo2-image {
         position: absolute;
         width: 400px;
         height: 40px;
@@ -158,7 +195,8 @@ footer {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    #my_image {
+    .my_jumbo-image,
+    .my_jumbo2-image {
         position: absolute;
         width: 280px;
         height: 40px;
@@ -181,20 +219,6 @@ footer {
 /* DEBUG  */
 
 
-.debug .jumbotron2{
-    height: 800px;
-    background-color: red;
-}
-
-.debug .playstation4{
-    height: 600px;
-    background-color: lightslategray;
-}
-
-.debug .playstation-plus{
-    height: 400px;
-    background-color: green;
-}
 
 .debug .playstation-store{
     height: 500px;
