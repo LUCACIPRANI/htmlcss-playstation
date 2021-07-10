@@ -18,7 +18,7 @@ body{
     }
     #header-bar img{
         width: 90px;
-        height: 30px;
+        height: 35px;
     }
 /* inizio nav-header */
     .navbar-brand img{
@@ -68,12 +68,60 @@ body{
     #my_text{
         font-size: 1.2em;
     }
-/* fine jumbotron  */
-
-
+/* fine jumbotron */
 /* inizio main  */
 
-/* fine main  */
+    /* inizio figures */
+    .my_figures-borders-radius{
+        border-radius: 20px;
+    }
+    #my_returnal-border{
+        border: 3px solid #2481D4;
+        padding: 2px;
+    }
+    /* fine figures */
+    /* inizio playstation 5 */
+    .my_text-blue{
+        color: #2481D4;
+        font-weight: 500;
+    }
+    .my_text-gray{
+        color: #808080;
+        font-size: 1.5em;
+    }
+    .my_title{
+        font-size: 3em;
+    }
+
+    #my_blue-button{
+        border-radius: 30px;
+        font-size: 1.3em;
+    }
+    #console{
+        margin-top: 15%;
+    }
+    .my_console-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .my_elements{
+        position: relative;
+    }
+    .my_elements img{
+        width: 80%;
+        height: 80%;
+        object-fit: contain;
+    }
+    .opacity{
+        opacity: 0.5;
+    }
+    .my_bord-b_blue{
+        border-bottom: 2px solid #2481D4;
+    }
+    /* fine playstation 5 */
+
+/* fine main */
 
 
 /* inizio footer  */
@@ -102,6 +150,9 @@ footer {
         top: 45%;
         left: 3%;
     }
+    .my_elements{
+        margin: 0 auto;
+    }
 
 }
 
@@ -129,17 +180,6 @@ footer {
 
 /* DEBUG  */
 
-
-
-.debug .figures{
-    height: 200px;
-    background-color: lightgreen;
-}
-
-.debug .playstation5{
-    height: 800px;
-    background-color: lightpink;
-}
 
 .debug .jumbotron2{
     height: 800px;
