@@ -15,154 +15,297 @@
 <body>
     <!-- inizio header  -->
     <header>
-        <div id="header-bar" class="d-flex flex-row-reverse">
-            <div class="px-2">
-                <img src="img/sony_logo.svg" alt="Sony logo">
-            </div>
-        </div>
-    <!-- nuova navbar  -->
+      <div id="header-bar" class="d-flex flex-row-reverse">
+          <div class="px-2">
+              <img src="img/sony_logo.svg" alt="Sony logo">
+          </div>
+      </div>
+    <!-- navbar  -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="img/play_logo.svg" alt="">
+          </a>
 
-           <a class="navbar-brand" href="#">
-                <img src="img/play_logo.svg" alt="">
-           </a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
 
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <span class="my_navbar-black">Giochi</span> 
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="my_navbar-black">Giochi</span> 
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">
 
-                      <figure class="figure">
+                    <figure class="figure row my_dropdown justify-content-center">
+                      <!-- ps1 images  -->
+                      <div class="col-4">
                         <img src="img/play-menu-ico.png" class="figure-img img-fluid rounded" alt="">
-                        <figcaption class="figure-caption">PS1</figcaption>
-                      </figure>
-
-                      <figure class="figure">
+                        <figcaption class="figure-caption text-center">PS1</figcaption>
+                      </div>
+                      <div class="col-4">
                         <img src="img/play-menu-ico.png" class="figure-img img-fluid rounded" alt="">
-                        <figcaption class="figure-caption">PS1</figcaption>
-                      </figure>
-
-                      <figure class="figure">
+                        <figcaption class="figure-caption text-center">PS1</figcaption>
+                      </div>
+                      <div class="col-4">
                         <img src="img/play-menu-ico.png" class="figure-img img-fluid rounded" alt="">
-                        <figcaption class="figure-caption">PS1</figcaption>
-                      </figure>
+                        <figcaption class="figure-caption text-center">PS1</figcaption>
+                      </div>
+                    </figure>
 
-                    </a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">sub link giochi</a></li>
-                    <li><a class="dropdown-item" href="#">sub link </a></li>
-                    <li><a class="dropdown-item" href="#">sub link </a></li>
+                  </a></li>
+                  <!-- sub link  -->
+                    <li><hr class="dropdown-divider "></li>
+                    <div class="row px-5 justify-content-center">
+                      <div class="my_sublink col-4">
+                            <a class="dropdown-item" href="#">sub link giochi</a>
+                      </div>
+                      <div class="my_sublink col-4">
+                        <a class="dropdown-item col-4" href="#">sub link </a>
+                     </div>
+                      <div class="my_sublink col-4">
+                        <a class="dropdown-item col-4" href="#">sub link </a>
+                      </div>
+                    </div>
+                </ul>
+              </li>
 
-                  </ul>
-                </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="my_navbar-black">Hardware</span> 
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">
 
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <span class="my_navbar-black">Hardware</span> 
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
+                    <figure class="figure row my_dropdown justify-content-center">
+                      <!-- ps1 images  -->
+                      <div class="col-4">
+                        <img src="img/play-menu-ico.png" class="figure-img img-fluid rounded" alt="">
+                        <figcaption class="figure-caption text-center">PS1</figcaption>
+                      </div>
+                      <div class="col-4">
+                        <img src="img/play-menu-ico.png" class="figure-img img-fluid rounded" alt="">
+                        <figcaption class="figure-caption text-center">PS1</figcaption>
+                      </div>
+                      <div class="col-4">
+                        <img src="img/play-menu-ico.png" class="figure-img img-fluid rounded" alt="">
+                        <figcaption class="figure-caption text-center">PS1</figcaption>
+                      </div>
+                    </figure>
 
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <span class="my_navbar-black">Servizi</span> 
+                  </a></li>
+                  <!-- sub link  -->
+                    <li><hr class="dropdown-divider "></li>
+                    <div class="row px-5 justify-content-center">
+                      <div class="my_sublink col-4">
+                            <a class="dropdown-item" href="#">sub link giochi</a>
+                      </div>
+                      <div class="my_sublink col-4">
+                        <a class="dropdown-item col-4" href="#">sub link </a>
+                     </div>
+                      <div class="my_sublink col-4">
+                        <a class="dropdown-item col-4" href="#">sub link </a>
+                      </div>
+                    </div>
+                </ul>
+              </li>
 
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="my_navbar-black">Servizi</span> 
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">
 
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <span class="my_navbar-black">Novità</span> 
+                    <figure class="figure row my_dropdown justify-content-center">
+                      <!-- ps1 images  -->
+                      <div class="col-4">
+                        <img src="img/play-menu-ico.png" class="figure-img img-fluid rounded" alt="">
+                        <figcaption class="figure-caption text-center">PS1</figcaption>
+                      </div>
+                      <div class="col-4">
+                        <img src="img/play-menu-ico.png" class="figure-img img-fluid rounded" alt="">
+                        <figcaption class="figure-caption text-center">PS1</figcaption>
+                      </div>
+                      <div class="col-4">
+                        <img src="img/play-menu-ico.png" class="figure-img img-fluid rounded" alt="">
+                        <figcaption class="figure-caption text-center">PS1</figcaption>
+                      </div>
+                    </figure>
 
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
+                  </a></li>
+                  <!-- sub link  -->
+                    <li><hr class="dropdown-divider "></li>
+                    <div class="row px-5 justify-content-center">
+                      <div class="my_sublink col-4">
+                            <a class="dropdown-item" href="#">sub link giochi</a>
+                      </div>
+                      <div class="my_sublink col-4">
+                        <a class="dropdown-item col-4" href="#">sub link </a>
+                     </div>
+                      <div class="my_sublink col-4">
+                        <a class="dropdown-item col-4" href="#">sub link </a>
+                      </div>
+                    </div>
+                </ul>
+              </li>
 
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <span class="my_navbar-black">Fai Acquisti</span> 
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="my_navbar-black">Novità</span> 
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">
 
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
+                    <figure class="figure row my_dropdown justify-content-center">
+                      <!-- ps1 images  -->
+                      <div class="col-4">
+                        <img src="img/play-menu-ico.png" class="figure-img img-fluid rounded" alt="">
+                        <figcaption class="figure-caption text-center">PS1</figcaption>
+                      </div>
+                      <div class="col-4">
+                        <img src="img/play-menu-ico.png" class="figure-img img-fluid rounded" alt="">
+                        <figcaption class="figure-caption text-center">PS1</figcaption>
+                      </div>
+                      <div class="col-4">
+                        <img src="img/play-menu-ico.png" class="figure-img img-fluid rounded" alt="">
+                        <figcaption class="figure-caption text-center">PS1</figcaption>
+                      </div>
+                    </figure>
 
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <span class="my_navbar-black">Supporto</span> 
+                  </a></li>
+                  <!-- sub link  -->
+                    <li><hr class="dropdown-divider "></li>
+                    <div class="row px-5 justify-content-center">
+                      <div class="my_sublink col-4">
+                            <a class="dropdown-item" href="#">sub link giochi</a>
+                      </div>
+                      <div class="my_sublink col-4">
+                        <a class="dropdown-item col-4" href="#">sub link </a>
+                     </div>
+                      <div class="my_sublink col-4">
+                        <a class="dropdown-item col-4" href="#">sub link </a>
+                      </div>
+                    </div>
+                </ul>
+              </li>
 
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="my_navbar-black">Fai acquisti</span> 
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">
+
+                    <figure class="figure row my_dropdown justify-content-center">
+                      <!-- ps1 images  -->
+                      <div class="col-4">
+                        <img src="img/play-menu-ico.png" class="figure-img img-fluid rounded" alt="">
+                        <figcaption class="figure-caption text-center">PS1</figcaption>
+                      </div>
+                      <div class="col-4">
+                        <img src="img/play-menu-ico.png" class="figure-img img-fluid rounded" alt="">
+                        <figcaption class="figure-caption text-center">PS1</figcaption>
+                      </div>
+                      <div class="col-4">
+                        <img src="img/play-menu-ico.png" class="figure-img img-fluid rounded" alt="">
+                        <figcaption class="figure-caption text-center">PS1</figcaption>
+                      </div>
+                    </figure>
+
+                  </a></li>
+                  <!-- sub link  -->
+                    <li><hr class="dropdown-divider "></li>
+                    <div class="row px-5 justify-content-center">
+                      <div class="my_sublink col-4">
+                            <a class="dropdown-item" href="#">sub link giochi</a>
+                      </div>
+                      <div class="my_sublink col-4">
+                        <a class="dropdown-item col-4" href="#">sub link </a>
+                     </div>
+                      <div class="my_sublink col-4">
+                        <a class="dropdown-item col-4" href="#">sub link </a>
+                      </div>
+                    </div>
+                </ul>
+              </li>
+
+               <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="my_navbar-black">Supporto</span> 
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">
+
+                <figure class="figure row my_dropdown justify-content-center">
+                      <!-- ps1 images  -->
+                      <div class="col-4">
+                        <img src="img/play-menu-ico.png" class="figure-img img-fluid rounded" alt="">
+                        <figcaption class="figure-caption text-center">PS1</figcaption>
+                      </div>
+                      <div class="col-4">
+                        <img src="img/play-menu-ico.png" class="figure-img img-fluid rounded" alt="">
+                        <figcaption class="figure-caption text-center">PS1</figcaption>
+                      </div>
+                      <div class="col-4">
+                        <img src="img/play-menu-ico.png" class="figure-img img-fluid rounded" alt="">
+                        <figcaption class="figure-caption text-center">PS1</figcaption>
+                      </div>
+                    </figure>
+
+                  </a></li>
+                  <!-- sub link  -->
+                    <li><hr class="dropdown-divider "></li>
+                    <div class="row px-5 justify-content-center">
+                      <div class="my_sublink col-4">
+                            <a class="dropdown-item" href="#">sub link giochi</a>
+                      </div>
+                      <div class="my_sublink col-4">
+                        <a class="dropdown-item col-4" href="#">sub link </a>
+                     </div>
+                      <div class="my_sublink col-4">
+                        <a class="dropdown-item col-4" href="#">sub link </a>
+                      </div>
+                    </div>
+                </ul>
+              </li>
 
 <!-- nav di sinistra  -->
-                <div id="left-nav" class="collapse navbar-collapse" id="navbarNavDropdown">
-                  <ul class="navbar-nav">
-                    
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <span class="my_navbar-black">My PlayStation</span> 
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </li>
-                    
-  
-                    <li>
-                      <a href="#" id="my_gray-button" class="btn btn-secondary btn-lg active mx-2" role="button" aria-pressed="true">Accedi</a>
-                    </li>
-  
-                    <li>
-                      <img id="lens" class="mx-3" src="img/lens.svg" alt="">
-                    </li>
-  
-                  </ul>
-                </div>
-              </ul>
-            </div>
+              <div id="left-nav" class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="my_navbar-black">My PlayStation</span> 
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  
+
+                  <li>
+                    <a href="#" id="my_gray-button" class="btn btn-secondary btn-lg active mx-2" role="button" aria-pressed="true">Accedi</a>
+                  </li>
+
+                  <li>
+                    <img id="lens" class="mx-3" src="img/lens.svg" alt="">
+                  </li>
+
+                </ul>
+              </div>
+            </ul>
           </div>
-        </nav>
-        
+        </div>
+      </nav>
     </header>
     <!-- fine header  -->
     <!-- inizio jumbotron -->
@@ -453,6 +596,7 @@
 
       </section>
     <!-- fine playstation 4  -->
+    <!-- inizio playstation plus  -->
       <section class="container-fluid playstation-plus">
 
           <div class="row">
@@ -473,6 +617,7 @@
           </div>
 
       </section>
+    <!-- fine playstation plus  -->
     <!-- playstation store -->
       <section class="container-fluid playstation-store ">
 

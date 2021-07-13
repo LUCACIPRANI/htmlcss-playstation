@@ -23,17 +23,15 @@ body{
 }
 
 /* inizio header  */
-    nav{
-        height: 80px;
-        overflow: hidden;
+    header{
+        z-index: 999;
+        height: 120px;
+        color: #242425;
         position: fixed;
         top: 0;
-        width: 100%;
-        overflow: hidden;
-    }
-    main{
-        overflow: scroll;
-        height: 6200px;
+        left: 0;
+        z-index: 999;
+        overflow: visible;
     }
     #header-bar{
         background-color: black;
@@ -50,6 +48,17 @@ body{
     #left-nav{
         position: absolute;
         right: 0;
+    }
+    .my_dropdown{
+        width: 50vw;
+        margin: 0 auto;
+        padding: 0 25% 0 25%;
+    }
+    .my_sublink{
+        width: 10vw;
+        display: inline;
+        list-style-type: space-counter;
+        margin-left: 20px;
     }
 /* inizio nav-header */
     .navbar-brand img{
