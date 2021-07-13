@@ -8,7 +8,33 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* COMMON  */
+
+/* hover  */
+#my_red-button:hover,
+#my_gray-button:hover,
+#lens, #my_blue-button:hover,
+#my_reverse-button:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.my_navbar-black:hover {
+    color: #2481D4;
+}
+
 /* inizio header  */
+    nav{
+        height: 80px;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        overflow: hidden;
+    }
+    main{
+        overflow: scroll;
+        height: 6200px;
+    }
     #header-bar{
         background-color: black;
         color: white;
@@ -18,12 +44,19 @@ body{
         width: 90px;
         height: 35px;
     }
+    header{
+        position: relative;
+    }
+    #left-nav{
+        position: absolute;
+        right: 0;
+    }
 /* inizio nav-header */
     .navbar-brand img{
         width: 70px;
         height: 60px;
     }
-    #navbarDropdownMenuLink {
+    .my_navbar-black{
         color: black;
     }
     #my_gray-button{
@@ -50,13 +83,11 @@ body{
         width: 280px;
         height: 40px;
         top: 45%;
-        left: 3%;
     }
     .other-text{
         position: absolute;
         width: 100%;
         top: 55%;
-        left: 4%;
         color: white;
     }
     #my_red-button{
@@ -89,7 +120,7 @@ body{
         font-size: 1.6em;
     }
     .my_title{
-        font-size: 3em;
+        font-size: 2.5em;
     }
     #my_blue-button{
         border-radius: 30px;
@@ -107,8 +138,6 @@ body{
         position: relative;
     }
     .my_elements img{
-        width: 80%;
-        height: 80%;
         object-fit: contain;
     }
     .opacity{
@@ -116,6 +145,7 @@ body{
     }
     .opacity:hover{
         opacity: 0.3;
+        cursor: pointer;
     }
     .my_bord-b_blue{
         border-bottom: 2px solid #2481D4;
@@ -132,13 +162,11 @@ body{
         width: 280px;
         height: 200px;
         top: 7%;
-        left: 3%;
     }
     .other-text2{
         position: absolute;
         width: 100%;
         top: 40%;
-        left: 4%;
         color: white;
     }
     /* fine jumbotron2  */
@@ -171,9 +199,8 @@ body{
     }
     .my_text-black{
         color: black;
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
-
     #my_reverse-button{
         border-radius: 30px;
         border: none;
@@ -186,7 +213,6 @@ body{
     .black{
         color: black;
     }
-
     .my_play-plus-image{
         width: 60%;
         object-fit: contain;
@@ -209,17 +235,14 @@ body{
     /* fine play station store  */
     /* Social media  */
     .social-media img{
-        width: 230px;
-        height: 230px;
+        width: 250px;
+        height: 250px;
     }
 /* fine main */
-
 
 /* inizio footer  */
     footer {
         background-color: #05449B;
-    }
-    .footer-top{
         color: white;
     }
     .my_ps-footer{
@@ -237,19 +260,22 @@ body{
         width: 150px;
         height: 150px;
     }
-    
+    .my_link-footer ul li{
+        list-style-type: none;
+        line-height: 2em;
+    }
+    .underline{
+        text-decoration: underline;
+    }
 /* fine footer  */
 
-
-
-/* Media query */
+/* MEDIA QUERY */
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     .my_play-store-image{
         display: none;
     }
-
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -274,7 +300,9 @@ body{
         padding-left: 3%;
         padding-right: 3%;
     }
-
+    .my_link-footer{
+        margin-top: 5%;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -305,6 +333,10 @@ body{
         height: 180px;
     }
     .my_link-footer{
-        margin-top: 15%;
+        margin-top: 10%;
+    }
+    .my_link-footer ul li{
+        list-style-type: none;
+        line-height: 2em;
     }
 }
